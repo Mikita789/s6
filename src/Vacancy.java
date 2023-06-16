@@ -28,7 +28,7 @@ public class Vacancy {
 
     @Override
     public String toString() {
-        return String.format("В компанию %s/ЗП[%.2f]/профиль[%s]", companyName, salaryValue, type);
+        return String.format("В компанию %s/ЗП[%.2f]/профиль[%s]/грейд [%s]", companyName, salaryValue, type,grade);
     }
 
     public Vacancy(String companyName, VacancyType type, Grade grade) {

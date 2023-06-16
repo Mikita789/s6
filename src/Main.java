@@ -9,8 +9,8 @@ public class Main {
         Company ab = new Company("Alfa-Bank", ja);
         Company ya = new Company("Yandex", ja);
         //сотрудники
-        Students st1 = new Students("Ivan", VacancyType.IT);
-        Students st2 = new Students("Petr", VacancyType.DESIGN);
+        Student st1 = new Student("Ivan", VacancyType.IT);
+        Student st2 = new Student("Petr", VacancyType.DESIGN);
         Master m1 = new Master("Kirill", VacancyType.FINANCE, Grade.MIDDLE);
         Master m2 = new Master("Pavel", VacancyType.MARKETING, Grade.SENIOR);
         TemporaryWorker t1 = new TemporaryWorker("Vlad", VacancyType.OTHER, Grade.MIDDLE);
